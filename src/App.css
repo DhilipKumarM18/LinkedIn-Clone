@@ -1,0 +1,385 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f2ef;
+  margin: 0;
+  padding-top: 70px;}
+
+#cont
+{
+  background-color: #1ea6ef;
+  font-weight: bold;
+  color: black;
+}
+.login-container
+{
+  border: 2px solid blue;
+}
+.login-container h2
+{
+  font-weight: bold;
+}
+.mb-4
+{
+  font-weight: bold;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+.navbar-nav .nav-link {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  padding: 8px 15px;
+  color: rgba(255, 255, 255, 0.8); /* Light color by default */
+  transition: color 0.3s ease-in-out; /* Smooth transition */
+}
+
+.navbar-nav .nav-link:hover {
+  color: white !important; /* White color on hover */
+}
+#hc
+{
+  border: 2px solid rgb(7, 181, 250);
+}
+
+.active-nav .nav-link {
+  font-weight: bold;
+  color: white !important;
+}
+
+.profile-icon {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.profile-icon:hover {
+  transform: scale(1.1);
+}
+
+.profile-sidebar {
+  position: sticky;
+  top: 80px;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.profile-pic-large {
+  width: 100px;
+  height: 100px;
+}
+
+.profile-modal .modal-content {
+  animation: fadeIn 0.5s ease-in-out;
+}
+.profile-modal-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.job-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.job-modal-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.job-card {
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+
+.slide-left {
+  animation-name: slideFromLeft;
+}
+
+.slide-right {
+  animation-name: slideFromRight;
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    display: none;
+  }
+  .navbar-collapse.show {
+    display: block;
+    animation: slideIn 0.3s ease-in-out;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.login-container {
+  max-width: 350px;
+  margin: 100px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.error-text {
+  color: red;
+  font-size: 14px;
+}
+
+body {
+  padding-top: 60px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+.nav-icon {
+  margin-right: 5px;
+}
+
+.profile-icon {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.profile-icon:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    display: none;
+  }
+  .navbar-collapse.show {
+    display: block;
+    animation: slideIn 0.3s ease-in-out;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profile-modal {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.profile-icon {
+  border: 2px solid white;
+  transition: transform 0.2s;
+}
+
+.profile-icon:hover {
+  transform: scale(1.1);
+}
+
+.nav-icon {
+  margin-right: 5px;
+}
+
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.badge {
+  position: relative;
+  top: -5px;
+  left: -5px;
+}
+.container {
+  max-width: 1100px;
+}
+
+.connections-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.profile-pic:hover {
+  transform: scale(1.1);
+}
+
+.profile-pic-small {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.profile-modal-img {
+  width: 80px;
+  height: 80px;
+}
+
+.animate-fade {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.animate-slide {
+  animation: slideIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-10px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --nav-bg: #0073b1;
+  --brand-color: white;
+  --nav-link-color: black;
+  --modal-bg: white; 
+  --modal-text-color: black;
+}
+
+[data-theme="dark"] {
+  --bg-color: #181818;
+  --text-color: white;
+  --nav-bg: #333;
+  --brand-color: white;
+  --nav-link-color: white;
+  --modal-bg: #282828; 
+  --modal-text-color: white; 
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: 0.3s ease-in-out;
+}
+
+.navbar {
+  background-color: var(--nav-bg);
+}
+
+.navbar-brand {
+  color: var(--brand-color) !important;
+}
+
+.nav-link {
+  color: var(--nav-link-color) !important;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.modal-content {
+  background-color: var(--modal-bg) !important;
+  color: var(--modal-text-color) !important;
+  border: 1px solid var(--modal-text-color);
+}
+
+.modal-header {
+  border-bottom: 1px solid var(--modal-text-color);
+}
+
+.modal-footer {
+  border-top: 1px solid var(--modal-text-color);
+}
+
+.modal input,
+.modal textarea {
+  background: var(--modal-bg);
+  color: var(--modal-text-color);
+  border: 1px solid var(--modal-text-color);
+}
+
+.modal .btn {
+  color: var(--modal-text-color);
+}
+
