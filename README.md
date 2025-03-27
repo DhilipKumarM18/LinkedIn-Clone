@@ -1,6 +1,6 @@
 #LinkedIn Clone
 
-A Social Media Application Inspired by LinkedIn
+A Networking Application Inspired by LinkedIn
 A professional networking platform built with React Vite, featuring interactive posts, job listings, and connections management. Check out the Live Demo to explore its features.
 
 #Features
@@ -186,6 +186,9 @@ Deployment Steps (Vercel)
 #Conclusion
     The LinkedIn Clone project successfully replicates core LinkedIn features such as profile   management, job saving, connections, and interactive posts using React Vite, Bootstrap, and     LocalStorage.
 
- Live Demo:  https://linked-in-clone-drab.vercel.app/
+ Live Demo:  https://linked-in-clone-drab.vercel.app/ 
+ * Open in incognito mode to avoid security issues, as I have included my personal pictures.  
+ * You can also open the website in normal mode, but if a security warning appears, click on   
+  "Visit Unsafe Site" to proceed.
  GitHub Repo: [LinkedIn Clone Source Code](https://github.com/DhilipKumarM18/LinkedIn-Clone
 )
