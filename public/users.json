@@ -2,19 +2,19 @@
     {
       "id": 1,
       "name": "John Doe",
-      "profilePic": "/images/user1.jpg",
+      "profilePic": "/images/john.jpg",
       "bio": "Software Engineer at Google"
     },
     {
       "id": 2,
       "name": "Jane Smith",
-      "profilePic": "/images/user2.jpg",
+      "profilePic": "/images/jane.jpg",
       "bio": "Data Scientist at Amazon"
     },
     {
       "id": 3,
       "name": "Michael Johnson",
-      "profilePic": "/images/user3.jpg",
+      "profilePic": "/images/michael.jpg",
       "bio": "Frontend Developer at Microsoft"
     },
     {
@@ -26,7 +26,7 @@
     {
       "id": 5,
       "name": "David Brown",
-      "profilePic": "/images/user5.jpg",
+      "profilePic": "/images/alice.jpg",
       "bio": "Cybersecurity Analyst at IBM"
     }
   ]
