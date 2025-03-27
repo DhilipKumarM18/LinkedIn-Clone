@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "user": "John Doe",
+      "profilePic": "/images/john.jpg",
+      "content": "Excited to share my latest project built with React and Node.js! 🚀",
+      "image": "/images/react-project.jpg",
+      "likes": 30,
+      "comments": []
+    },
+    {
+      "id": 2,
+      "user": "Jane Smith",
+      "profilePic": "/images/jane.jpg",
+      "content": "Just finished a deep dive into JavaScript ES6 features. So much to learn! 📚",
+      "image": "/images/js-es6.jpg",
+      "likes": 18,
+      "comments": []
+    },
+    {
+      "id": 3,
+      "user": "Michael Lee",
+      "profilePic": "/images/michael.jpg",
+      "content": "Full-stack development with MERN stack is so powerful! 🔥",
+      "image": "/images/mern-stack.jpg",
+      "likes": 22,
+      "comments": []
+    },
+    {
+      "id": 4,
+      "user": "Alice Brown",
+      "profilePic": "/images/alice.jpg",
+      "content": "Exploring UI/UX design trends for 2025. Dark mode is here to stay! 🎨",
+      "image": "/images/uiux.jpg",
+      "likes": 15,
+      "comments": []
+    },
+    {
+      "id": 5,
+      "user": "Dhilip Kumar M",
+      "profilePic": "/images/dhilip.jpg",
+      "content": "Successfully deployed my LinkedIn Clone using Vercel! 🚀🔥",
+      "image": "/images/linkedin-clone.jpg",
+      "likes": 25,
+      "comments": []
+    }
+  ]
+  

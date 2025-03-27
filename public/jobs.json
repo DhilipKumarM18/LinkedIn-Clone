@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "React Developer",
+      "company": "Google",
+      "location": "Remote",
+      "logo": "/images/google.png"
+    },
+    {
+      "id": 2,
+      "title": "Full Stack Developer",
+      "company": "Amazon",
+      "location": "Bangalore",
+      "logo": "/images/amazon.png"
+    },
+    {
+      "id": 3,
+      "title": "Software Engineer",
+      "company": "Microsoft",
+      "location": "Hyderabad",
+      "logo": "/images/microsoft.png"
+    },
+    {
+      "id": 4,
+      "title": "UI/UX Designer",
+      "company": "Facebook",
+      "location": "Chennai",
+      "logo": "/images/facebook.png"
+    },
+    {
+      "id": 5,
+      "title": "Cybersecurity Analyst",
+      "company": "IBM",
+      "location": "Pune",
+      "logo": "/images/ibm.png"
+    }
+  ]
+  
