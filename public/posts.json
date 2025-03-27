@@ -22,7 +22,7 @@
       "user": "Michael Lee",
       "profilePic": "/images/michael.jpg",
       "content": "Full-stack development with MERN stack is so powerful! 🔥",
-      "image": "/images/mern.jpg",
+      "image": "/images/mern.png",
       "likes": 22,
       "comments": []
     },
@@ -31,7 +31,7 @@
       "user": "Alice Brown",
       "profilePic": "/images/alice.jpg",
       "content": "Exploring UI/UX design trends for 2025. Dark mode is here to stay! 🎨",
-      "image": "/images/ui.jpg",
+      "image": "/images/ui.png",
       "likes": 15,
       "comments": []
     },
