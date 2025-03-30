@@ -133,16 +133,10 @@ const Post = ({ post, setPosts }) => {
           <Modal.Title>{post.user}</Modal.Title>
         </Modal.Header>
         <Modal.Body className="text-center">
-          <img src={post.profilePic} alt="Profile" className="rounded-circle profile-modal-img" />
+          <img src={post.profilePic} alt="Profile" className="rounded-circle profile-modal-img" onClick={() => setShowProfileModal(true)} />
           <h5 className="mt-3">{post.user}</h5>
           <p className="text-muted">{post.bio}</p>
           <p>🔗 {post.connections || "500+"} Connections</p>
-          <button
-            className={`btn ${connections.some((conn) => conn.id === post.userId) ? "btn-danger" : "btn-primary"}`}
-            onClick={handleFollowToggle}
-          >
-            {connections.some((conn) => conn.id === post.userId) ? "Unfollow" : "Follow"}
-          </button>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={() => setShowProfileModal(false)}>
