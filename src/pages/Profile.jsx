@@ -142,7 +142,7 @@ const Profile = () => {
               <div className="col-md-6 mb-3" key={post.id} >
                 <div className="card p-2" style={{border:'2px solid black',backgroundColor:'aquamarine'}}>
                   <p>{post.caption}</p>
-                  <img src={post.image} alt="Post" className="img-fluid rounded" />
+                  <img src={post.image ? post.image : "/images/es6.png"} alt="Post" className="img-fluid rounded" />
                   <div className="d-flex justify-content-between mt-2">
                     <button className="btn btn-outline-primary" onClick={() => handleLike(post.id)}>
                       👍 {post.likes}
