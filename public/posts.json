@@ -6,7 +6,9 @@
       "content": "Excited to share my latest project built with React and Node.js! 🚀",
       "image": "/images/react-project.jpg",
       "likes": 30,
-      "comments": []
+      "comments": [],
+      "bio": "Software Engineer at Google"
+
     },
     {
       "id": 2,
@@ -15,7 +17,8 @@
       "content": "Just finished a deep dive into JavaScript ES6 features. So much to learn! 📚",
       "image": "/images/es6.png",
       "likes": 18,
-      "comments": []
+      "comments": [],
+      "bio": "Data Scientist at Amazon"
     },
     {
       "id": 3,
@@ -24,7 +27,8 @@
       "content": "Full-stack development with MERN stack is so powerful! 🔥",
       "image": "/images/mern.png",
       "likes": 22,
-      "comments": []
+      "comments": [],
+      "bio": "Frontend Developer at Microsoft"
     },
     {
       "id": 4,
@@ -33,7 +37,8 @@
       "content": "Exploring UI/UX design trends for 2025. Dark mode is here to stay! 🎨",
       "image": "/images/ui.png",
       "likes": 15,
-      "comments": []
+      "comments": [],
+      "bio": "Cybersecurity Analyst at IBM"
     },
     {
       "id": 5,
@@ -42,7 +47,8 @@
       "content": "AI trends in 2025! 🚀🔥",
       "image": "/images/ai.jpg",
       "likes": 25,
-      "comments": []
+      "comments": [],
+      "bio" :"Software Developer at Incture"
     }
   ]
   
